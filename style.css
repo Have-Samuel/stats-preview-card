@@ -110,6 +110,8 @@
     margin: 10rem;
     width: 1110px;
     height: 446px;
+    /* gap: 5rem; */
+    justify-content: space-between;
   }
 
   .mobile-image {
@@ -117,7 +119,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 0 8px 8px 0;
-    margin-left: 6rem;
   }
 
   .overlay {
@@ -129,8 +130,8 @@
   .inner-content {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    margin-left: 2rem;
+    /* border: 2px solid red; */
+    margin-left: 5rem;
   }
 
   .subtitle {
@@ -180,5 +181,6 @@
 
   .lower-space {
     margin-bottom: 0;
+    margin-left: -1rem;
   }
 }
