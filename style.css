@@ -66,6 +66,11 @@
 .plans {
   display: flex;
   flex-direction: column;
+}
+
+.plans__units-item {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
@@ -102,15 +107,15 @@
   .content {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10rem auto;
-    width: 1000px;
+    margin: 10rem;
+    width: 1110px;
     height: 446px;
   }
 
   .mobile-image {
     background-image: url('./images/image-header-desktop.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     border-radius: 0 8px 8px 0;
     margin-left: 6rem;
   }
@@ -125,25 +130,55 @@
     display: flex;
     flex-direction: column;
     border: 2px solid red;
-    margin-left: 15.5rem;
+    margin-left: 2rem;
   }
 
   .subtitle {
     height: 88px;
     width: 403px;
+    margin: 2rem auto 1rem auto;
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: 0;
     text-align: left;
-    margin: 0;
+  }
+
+  .para1 {
+    height: 75px;
+    width: 374px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 2rem  0;
   }
 
   .plans {
     display: flex;
     flex-direction: row;
+  }
+
+  .plans__units-item {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: -1rem;
+  }
+
+  .plans__unit {
+    margin: 0 -2rem 0 -5.4rem;
+  }
+
+  .plans__unit-name {
+    margin-right: 2rem;
+  }
+
+  .lower-space {
+    margin-bottom: 0;
   }
 }
