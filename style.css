@@ -107,7 +107,7 @@
   .content {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10rem;
+    margin: 10rem auto;
     width: 1110px;
     height: 446px;
     justify-content: space-between;
