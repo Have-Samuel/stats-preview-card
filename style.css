@@ -6,10 +6,10 @@
   box-sizing: border-box;
 }
 
-.container {
+body {
   height: 100vh;
-  overflow: hidden;
   background: rgba(10, 12, 28, 1);
+  overflow: hidden;
 }
 
 .content {

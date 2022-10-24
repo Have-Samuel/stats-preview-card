@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/stats-preview-card)
-- [Live Link](https://lucent-stats.netlify.app/)
+- [Live Link]()
 
 ### Built with
 
