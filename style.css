@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(10, 12, 28, 1);
+}
+
+.content {
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  border-radius: 8px;
+  background: rgba(27, 25, 55, 1);
+}
+
+.mobile-image {
+  background-image: url('./images/image-header-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.overlay {
+  height: 240px;
+  width: 327px;
+  background-color: #9c01fc59;
+}
+
+.subtitle {
+  width: 264px;
+  margin: 2rem auto 1rem auto;
+  text-align: center;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.subtitle span {
+  color: rgba(171, 92, 219, 1);
+}
+
+.para1 {
+  width: 264px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #fff;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+}
+
+.plans__units-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.plans__unit {
+  color: #fff;
+  width: 264px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.plans__unit-name {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.lower-space {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10rem auto;
+    width: 1110px;
+    height: 446px;
+    justify-content: space-between;
+  }
+
+  .mobile-image {
+    background-image: url('./images/image-header-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .overlay {
+    height: 446px;
+    width: 540px;
+    background-color: #9c01fc59;
+  }
+
+  .inner-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .subtitle {
+    height: 88px;
+    width: 403px;
+    margin: 2rem auto 1rem auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .para1 {
+    height: 75px;
+    width: 374px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 2rem  0;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .plans__units-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+  }
+
+  .plans__unit {
+    margin: 0 -2rem 0 -5.4rem;
+  }
+
+  .plans__unit-name {
+    margin-right: 2rem;
+  }
+
+  .lower-space {
+    margin-bottom: 0;
+    margin-left: -1rem;
+  }
+}
